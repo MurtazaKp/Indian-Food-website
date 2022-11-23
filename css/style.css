@@ -21,9 +21,11 @@ body {
     text-decoration: none;
     font-size: 17px;
     
+    
   }
   .topnav .icon {
     display: none;
+    padding: 40px;
   }
 /* end of navbar css */
 
@@ -31,6 +33,7 @@ body {
     background: url(../images/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\)32.png);
     background-size:100% 100%;
     padding:0 0 50px 0;
+    position: relative;
 }
 
 .text-white{
@@ -248,8 +251,172 @@ color: #35454a;
     padding-bottom:20px;
 }
 
+.book-above-img{
+    height:50vh;
+    background:url(../images/bg4.png);
+    background-size: 100% 100%;
+}
 
+
+.book{
+    text-align: center;
+    background-color: #2a3b40;
+    color: #fff;
+    padding-bottom:40px;
+}
+
+.book input{
+    width:50%;
+    padding:10px 0;
+    border:1px solid white;
+    background-color: #2a3b40;
+}
+
+.book h2{
+    margin: 0;
+    padding:20px 0;
+}
+
+.book input::placeholder{
+    color: #fff;
+    padding:0 0 0 10px;
+}
+
+.book select{
+    width: 50%;
+    padding: 10px 0;
+    background-color: #2a3b40;
+    color: #fff;
+}
+
+.book input[type=date]{
+    color: #fff;
+    padding: 10px 0 10px 10px;
+}
+.book input[type=time]{
+    color: #fff;
+}
+.book label{
+    display: inline-block;
+    margin: 20px 0;
+    
+}
+
+.book-below-img{
+    height:50vh;
+    background:url(../images/bg5.png);
+    background-size: 100% 100%;
+}
+
+.Menu{
+    text-align: center;
+    background-color:#d4d8d9;
+    padding-bottom:20px;
+
+}
+
+.Menu h2{
+    margin: 0;
+    color: #2a3640;
+    padding-top: 20px;
+}
+
+.Menu .block{
+    color: #ad6c12 ;
+}
+
+.Menu .three-column .column img{
+    margin:0 0 20px;
+    width:100%;
+}
+
+.Menu .three-column .column{
+    width:90%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.Menu .three-column .column a{
+    text-decoration: none;
+    color: #2a3640;
+    border-bottom: 5px solid #ff992b;
+}
+
+.testimonials{
+    text-align: center;
+    background-color: #2a3b40;
+    padding-bottom:20px;
+    
+}
+
+.testimonials p{
+    color: #fff;
+    text-align: justify;
+    width:90%;
+    line-height:20px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.testimonials h4{
+    color: #fff;
+    padding:0 0 10px;
+}
+
+.testimonials ul{
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.testimonials ul li{
+    margin:0 20px 0 0;
+    border-radius:100%;
+    background-color: #fff;
+    padding:7px;
+}
+
+.testimonials ul i{
+    font-size:20px;
+    color: #2a3b40;
+}
+
+.about-footer{
+    background-color: #d4d8d9;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.about h3{
+    margin: 0;
+    padding:20px 0;
+}
+
+.about p{
+    text-align:justify;
+    width:85%;
+    margin: 0 auto;
+    list-style:20px;
+}
   
+.about-footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.about1 ul li{
+    margin: 10px 0;
+}
+
+.about1 a{
+    text-decoration: none;
+    color: #2a3640;
+}
+
+
   @media screen and (max-width: 768px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
