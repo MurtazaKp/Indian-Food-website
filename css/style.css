@@ -197,6 +197,7 @@ color: #35454a;
 .discover{
     background:url(../images/bg3.png);
     display: flex;
+    background-size:100% 100%;
     
 }
 
@@ -437,10 +438,245 @@ color: #35454a;
       display: block;
       text-align: left;
     }
+
+   
+
+
+  }
+
+  @media screen and (min-width:768px) {
+    .brunch{
+        width:60%;
+        margin: 0 auto;
+    }
+
+    .traditional{
+        display: flex;
+        padding: 20px 0;
+        text-align: left;
+        
+    }
+    .traditional div{
+        flex-basis: 50%;
+        padding: 20px;
+    }
+    .traditional h3{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .feature .bg{
+        display: flex;
+        text-align: left;
+        padding: 50px 0;
+        justify-content: space-around;
+    }
+
+    .feature div{
+        flex-basis:30%;
+}
+
+    .feature p{
+        text-align: left;
+    }
+    .feature h4{
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .feature .circle{
+        width:90%;
+        margin: 0 auto;
+    }
+
+    .feature .circle i{
+        padding: 0 10px 20px 0;
+    }
+
+    .ind-plate .items .column{
+        display: flex;
+        width: 90%;
+        margin: 15px auto;
+
+    }
+
+    .ind-plate .items .column p{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .discover{
+        padding:50px 0;
+    }
+    .white-box{
+        padding:30px 0;
+    }
+
+    .discover .white-box .dish-row1, .discover .white-box .dish-row2,.discover .white-box .dish-row3{
+        display: flex;
+    }
+
+    .book{
+        padding: 50px 0 70px;
+    }
+
+    .book .info{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .book .info input{
+        width:100%;
+    }
+
+    .book .info select{
+        width:100%;
+    }
+
+    .Menu .three-column{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Menu .three-column .column{
+        flex-basis: 40%;
+    }
+    .about-footer .bg{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .about-footer .about1{
+        flex-basis:20%;
+        text-align: left;
+        
+    }
+
+    .about-footer .about{
+        flex-basis:40%;
+        text-align: left;
+        
+    }
+    
+    .about-footer .about1 ul{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-footer .about1{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-footer .about p{
+        text-align: left;
+        margin: 0;
+        width: 90%;
+       
+    }
+
+    .about-footer .about1 h4{
+        width:80%;
+        margin: 30px auto;
+    }
+
+   
   }
 
   @media screen and (min-width:1024px){
     .push{
         margin-left:600px;
       }
+
+      .traditional{
+        align-items: center;
+      }
+
+      .traditional div img{
+        width:80%;
+        margin: 0;
+        
+      }
+      .traditional .content p{
+        line-height:30px;
+      }
+
+      .feature .bg {
+        width:80%;
+        margin: 0 auto;
+      }
+
+      .ind-plate .two-column{
+        display: flex;
+        padding: 0;
+        margin: 0;
+      }
+
+      .ind-plate .two-column .column .order-1 {
+        order: 1;
+      }
+
+      .ind-plate .two-column .column {
+        margin: 0;
+      }
+
+      .ind-plate .two-column .column .order-2{
+        order:2;
+      }
+
+      .ind-plate .two-column .column .content{
+        margin: 0 0 0 auto ;
+        padding: 0;
+        flex-basis:45%;
+        align-self: center;
+        
+      }
+
+      .ind-plate .two-column .column .other{
+        flex-basis:50%;
+      }
+
+      .ind-plate .two-column .column .other img{
+        width: 100%;
+      }
+
+      .discover{
+        padding: 0;
+      }
+
+      .discover .white-box{
+        padding: 80px 0;
+        margin-top:200px;
+        margin-bottom:0;
+        width: 100%;
+      }
+
+      .discover .white-box .dish-row1 .food-items,.discover .white-box .dish-row2 .food-items,.discover .white-box .dish-row3 .food-items{
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      .discover .white-box .dish-row1 .food-items p, .discover .white-box .dish-row2 .food-items p,.discover .white-box .dish-row3 .food-items p{
+        text-align: left;
+        width: 60%;
+        margin: 0;
+      }
+
+      .discover .white-box .dish-row1 .food-items div h5,.discover .white-box .dish-row2 .food-items div h5 ,.discover .white-box .dish-row3 .food-items div h5{
+        text-align: left;
+      }
+
+      .discover .white-box .dish-row2{
+        margin: 30px 0;
+      }
+
+      .book-above-img{
+        height: 100vh;
+      }
+
+
   }
