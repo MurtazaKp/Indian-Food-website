@@ -303,6 +303,17 @@ color: #35454a;
     
 }
 
+.book a{
+    display: inline-block;
+    margin: 50px 0 0;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #2a3b40;
+    padding: 10px 0;
+    width: 50%;
+}
+
 .book-below-img{
     height:50vh;
     background:url(../images/bg5.png);
@@ -439,6 +450,8 @@ color: #35454a;
       text-align: left;
     }
 
+    
+
    
 
 
@@ -534,6 +547,11 @@ color: #35454a;
         width:100%;
     }
 
+    .book a{
+        width: 20%;
+    }
+
+
     .Menu .three-column{
         display: flex;
         flex-wrap: wrap;
@@ -580,6 +598,10 @@ color: #35454a;
     .about-footer .about1 h4{
         width:80%;
         margin: 30px auto;
+    }
+
+    .about-footer .about h3{
+        margin: 10px auto;
     }
 
    
@@ -678,5 +700,51 @@ color: #35454a;
         height: 100vh;
       }
 
+      .book .info div{
+        flex-basis:20%;
+      }
+
+      .book .info div{
+        text-align: left;
+      }
+
+      .book-below-img{
+        height:100vh;
+      }
+
+      .Menu .three-column{
+        flex-wrap: nowrap;
+        justify-content: center;
+      }
+
+      .Menu .three-column .column{
+        flex-basis:27%;
+        width: 20%;
+        margin: 0;
+      }
+
+      .Menu .three-column .middle{
+        margin:0 50px;
+      }
+
+
+      .testimonials p{
+        text-align: center;
+        width: 50%;
+      }
+
+      .about-footer{
+        padding-bottom: 50px;
+      }
+
+      .about-footer .about p{
+        width: 60%;
+        
+      }
+      .about-footer .bg{
+        width: 65%;
+      }
+
+  
 
   }
