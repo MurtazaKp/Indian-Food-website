@@ -3,13 +3,49 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  p,h3,h4,h5,.block{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  h3{
+    font-size: 30px;
+  }
+
+
+
+  h2{
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+
+  }
+
+  .block{
+    font-size:30px;
+  }
+
   
 
   /* navbar css */
   .topnav {
     overflow: hidden;
-   
-    
+    position: relative;
+    z-index: 3;
+  }
+
+  
+
+  .brunch{
+    position: relative;
+    z-index: 1;
+  }
+
+  .brunch h2{
+    margin-bottom: 0;
+  }
+
+  .brunch h1{
+    margin-top: 0;
   }
   
   .topnav a {
@@ -59,6 +95,7 @@ body {
 .brunch h2{
     color:#2c3a42 ;
     padding-top:50px;
+    margin-bottom:0;
 }
 
 
@@ -69,6 +106,7 @@ body {
     text-decoration: none;
     padding:10px 20px;
     margin-bottom:50px;
+    font-size: 28px;
 }
 
 
@@ -105,7 +143,7 @@ body {
 .feature {
     background-color: #d4d8d9;
     text-align: center;
-    padding-bottom:20px;
+    padding:30px 0;
 }
 
 .feature p{
@@ -119,6 +157,7 @@ body {
 .feature h4{
     margin: 0;
     color: #2a3b40;
+    font-size:20px;
     
 }
 .feature i{
@@ -154,6 +193,10 @@ body {
 
 .ind-plate .block{
     color: #ad6c12;
+}
+
+.ind-plate .two-column .column .content h3{
+    font-size: 18px;
 }
 
 .cusine{
@@ -205,7 +248,12 @@ color: #35454a;
     background-color:rgba(255, 255, 255, 0.9);
     width: 90%;
     margin: 20px auto;
+    text-align: center;
 
+}
+
+.discover .white-box h2{
+    color: #ad6c12;
 }
 
 .discover .white-box h5{
@@ -429,6 +477,70 @@ color: #35454a;
 }
 
 
+/* Hover effect css */
+
+.hover-a{
+    transition: 1s;
+}
+
+.hover-a:hover{
+    color: #ff992b;
+}
+
+.hover-button{
+    transition: 1s;
+}
+.hover-button:hover{
+    background-color: #2a3640;
+    color: #fff;
+}
+
+.hover-div a{
+    transition: 1s;
+}
+
+.hover-div:hover a{
+   border-bottom:5px solid #2a3640 !important;
+}
+
+.hover-button1 i{
+    transition: 1s;
+}
+.hover-button1 li{
+    transition: 1s;
+}
+
+.hover-button1:hover li{
+    background-color: #2a3640;
+}
+.hover-button1:hover i{
+    color: #fff;
+}
+
+.hover-button2{
+    transition: 1s;
+}
+
+.hover-button2:hover{
+    background-color: #fff;
+    color: #2a3640;
+    
+}
+
+
+.hover-a1{
+    transition: 0.5s;
+}
+
+.hover-a1:hover{
+    color: #ff992b;
+}
+
+
+
+
+
+
   @media screen and (max-width: 768px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -438,11 +550,24 @@ color: #35454a;
   }
   
   @media screen and (max-width: 768px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {position: relative;
+        background-color: #2a3640;
+        }
+
+      .topnav.responsive a{
+        color:#fff;
+        border-bottom: 1px solid #fff;
+        }
+
+         .topnav.responsive h2{
+            border: none;
+         }
     .topnav.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
+      border: none;
+    
     }
     .topnav.responsive a {
       float: none;
@@ -458,10 +583,15 @@ color: #35454a;
   }
 
   @media screen and (min-width:768px) {
+    .block{
+        font-size: 35px;
+    }
+
     .brunch{
         width:60%;
         margin: 0 auto;
     }
+    
 
     .traditional{
         display: flex;
@@ -526,6 +656,16 @@ color: #35454a;
         padding:30px 0;
     }
 
+    .cusine{
+        padding:50px 0;
+        font-size: 18px;
+    }
+
+    .cusine p{
+        width:40%;
+        margin: 30px auto;
+    }
+
     .discover .white-box .dish-row1, .discover .white-box .dish-row2,.discover .white-box .dish-row3{
         display: flex;
     }
@@ -551,6 +691,10 @@ color: #35454a;
         width: 20%;
     }
 
+    .Menu{
+        padding:10px 0 60px;
+    }
+
 
     .Menu .three-column{
         display: flex;
@@ -560,6 +704,7 @@ color: #35454a;
     .Menu .three-column .column{
         flex-basis: 40%;
     }
+
     .about-footer .bg{
         display: flex;
         justify-content: space-around;
@@ -608,8 +753,37 @@ color: #35454a;
   }
 
   @media screen and (min-width:1024px){
+    .topnav{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .topnav a{
+        font-size:20px;
+    }
+    
+    h2{
+        font-size:80px;
+        margin-bottom: 0;
+        font-weight: lighter;
+    }
+    h1{
+        font-size: 70px;
+        margin-top: 0;
+        font-weight: lighter
+    }
+
+    .brunch h1{
+        margin-top: 0;
+    }
+
+    .brunch h2{
+        margin-bottom: 0;
+    }
+
+
     .push{
-        margin-left:600px;
+        margin-left:150px;
       }
 
       .traditional{
@@ -669,7 +843,6 @@ color: #35454a;
       }
 
       .discover .white-box{
-        padding: 80px 0;
         margin-top:200px;
         margin-bottom:0;
         width: 100%;
@@ -679,14 +852,23 @@ color: #35454a;
         display: flex;
         text-align: left;
         justify-content: center;
-        margin: 0 auto;
+        margin: 0 0 0 100px
       }
 
       .discover .white-box .dish-row1 .food-items p, .discover .white-box .dish-row2 .food-items p,.discover .white-box .dish-row3 .food-items p{
         text-align: left;
-        width: 60%;
+        width: 80%;
         margin: 0;
       }
+
+      .discover .white-box  h2{
+        margin: 0;
+        padding: 30px 0 ;
+        color: #2a3640;
+    }
+    .discover .white-box .block{
+        color: #ad6c12;
+    }
 
       .discover .white-box .dish-row1 .food-items div h5,.discover .white-box .dish-row2 .food-items div h5 ,.discover .white-box .dish-row3 .food-items div h5{
         text-align: left;
@@ -695,6 +877,19 @@ color: #35454a;
       .discover .white-box .dish-row2{
         margin: 30px 0;
       }
+      .cusine h2{
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-weight:600;
+   
+    }
+    .cusine p{
+        width: 40%;
+    }
+
+    .cusine .mar li{
+        margin: 0 60px 0 0  ;
+    }
 
       .book-above-img{
         height: 100vh;
@@ -716,11 +911,30 @@ color: #35454a;
         flex-wrap: nowrap;
         justify-content: center;
       }
+      .Menu .three-column .column{
+        text-align: left;
+      }
 
       .Menu .three-column .column{
         flex-basis:27%;
         width: 20%;
         margin: 0;
+      }
+
+      .Menu .three-column .column h5{
+        margin: 10px 0 15px 30px;
+      }
+
+      .Menu .three-column .column h6{
+        margin: 10px 0 10px 30px;
+      }
+
+      .Menu .three-column .column p{
+        margin: 10px 0 30px 30px;
+      }
+
+      .Menu .three-column .column a{
+        margin: 10px 0 10px 30px;
       }
 
       .Menu .three-column .middle{
@@ -733,8 +947,14 @@ color: #35454a;
         width: 50%;
       }
 
+      
+    .testimonials ul i{
+        font-size:25px;
+        padding: 10px;
+    }
+
       .about-footer{
-        padding-bottom: 50px;
+        padding-bottom: 30px;
       }
 
       .about-footer .about p{
@@ -745,6 +965,59 @@ color: #35454a;
         width: 65%;
       }
 
+      .block{
+        font-weight: 600;
+      }
+
   
 
+  }
+  @media  screen and (min-width:1440px) {
+    .topnav a{
+        font-size: 28px;
+    }
+
+    .push{
+        margin-left: 300px;
+    }
+    
+    .ind-plate .items{
+        margin: 100px auto;
+        padding: 30px 0;
+        width: 70%;
+
+    }
+    
+
+    .cusine h2{
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+   
+    }
+
+    .discover .white-box{
+        padding: 30px 0;
+    }
+
+    .discover .white-box .wrapper2{
+       
+        margin: 0 auto;
+    }
+    .discover .white-box  h2{
+        margin: 0;
+        padding: 0;
+    }
+
+    .discover .white-box .dish-row1 .food-items,.discover .white-box .dish-row2 .food-items,.discover .white-box .dish-row3 .food-items {
+        margin: 0 0 0 200px;
+    }
+    .discover .white-box .dish-row1 .food-items p,.discover .white-box .dish-row2 .food-items p,.discover .white-box .dish-row3 .food-items p{
+        width:60%;
+    }
+
+    .testimonials{
+        padding:50px 0;
+    }
+
+    
   }

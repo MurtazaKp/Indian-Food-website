@@ -5,29 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brunch</title>
+
+    <!-- google font link -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Raleway&display=swap" rel="stylesheet">
 
+    <!-- Aos Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- Font Awesome link -->
     <script src="https://kit.fontawesome.com/99d75cb80c.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="wrapper">
         <div class="background">
             <div class="topnav" id="myTopnav">
-                <a href="#" class="active"><h2>BRUNCH</h2></a>
-                <a class="push" href="#">WELCOME</a>
-                <a href="#">MENU</a>
-                <a href="#">EVENT</a>
-                <a href="#">CONTACT</a>
+                <a href="#" class="active " ><h3>BRUNCH</h3></a>
+                <a class="push hover-a" href="#">WELCOME</a>
+                <a class="hover-a" href="#">MENU</a>
+                <a class="hover-a" href="#">EVENT</a>
+                <a class="hover-a" href="#">CONTACT</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class="fa fa-bars"></i>
                 </a>
               </div>
 
             <div class="brunch text-center">
-                <h2>Brunch</h2>
-                <h1>FULL WEBSITE</h1>
-                <a href="#">READ MORE</a>
+                <h2 data-aos="fade-down" data-aos-duration="1000">Brunch</h2>
+                <h1 data-aos="fade-down" data-aos-duration="1000">FULL WEBSITE</h1>
+                <a data-aos="fade-up" data-aos-duration="1000"  class="hover-button" href="#">READ MORE</a>
             </div>
         </div>
 
@@ -79,7 +87,7 @@
         
 
         <div class="items">
-        <h2>INDIA <span class="block">ON YOUR PLATE</span></h2>
+        <h2 data-aos="flip-down" data-aos-duration="1000">INDIA <span class="block">ON YOUR PLATE</span></h2>
 
             <div class="two-column">
             <div class="column">
@@ -171,88 +179,92 @@
 
     <div class="discover">
         <div class="white-box">
-            <div class="dish-row1">
-                <div class="food-items">
-                    <div class="img">
-                        <img src="images/chicken.png" alt="">
-                    </div>
-                  
-                    <div>
-                        <h5>TIKKA CHICKEN</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit sed do oculis $14.95
-                            </p>
+        <h2 data-aos="fade-up" data-aos-duration="1000">Discover <span class="block">OUR NEW MENUS</span></h2>
+            <div class="wrapper2">
+                 <div class="dish-row1">
+                    <div class="food-items">
+                        <div class="img">
+                            <img src="images/chicken.png" alt="">
                         </div>
-                </div>
-                <div class="food-items">
-                    <div class="img">
-                        <img src="images/chole-bhature.png" alt="">
+                      
+                        <div>
+                            <h5>TIKKA CHICKEN</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit sed do oculis $14.95
+                                </p>
+                            </div>
                     </div>
-                    
-                    <div>
-                        <h5>SOUP OF THE DAY</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit sed do oculis $14.95
-                            </p>
+                    <div class="food-items">
+                        <div class="img">
+                            <img src="images/chole-bhature.png" alt="">
                         </div>
-                </div>
-            </div>
-            <!-- Dish Row 2 -->
-            <div class="dish-row2">
-                <div class="food-items">
-                    <div class="img">
-                        <img src="images/chapati.png" alt="">    
+                        
+                        <div>
+                            <h5>SOUP OF THE DAY</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit sed do oculis $14.95
+                                </p>
+                            </div>
                     </div>
-                    
-                    <div>
-                        <h5>PLAIN PAPADUMS</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit sed do oculis $1.95
-                            </p>
-                        </div>
                 </div>
-                <div class="food-items">
-                    <div class="img">
-                        <img src="images/yellow-curry.png" alt="">
+                <!-- Dish Row 2 -->
+                <div class="dish-row2">
+                    <div class="food-items">
+                        <div class="img">
+                            <img src="images/chapati.png" alt="">    
+                        </div>
+                        
+                        <div>
+                            <h5>PLAIN PAPADUMS</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit sed do oculis $1.95
+                                </p>
+                            </div>
                     </div>
-                   
-                    <div>
-                        <h5>YELLOW CURRY</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit sed do oculis $15.95
-                            </p>
+                    <div class="food-items">
+                        <div class="img">
+                            <img src="images/yellow-curry.png" alt="">
                         </div>
+                       
+                        <div>
+                            <h5>YELLOW CURRY</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit sed do oculis $15.95
+                                </p>
+                            </div>
+                    </div>
                 </div>
-            </div>
+        
+                <!-- Dish Row 3 -->
+                <div class="dish-row3">
+                    <div class="food-items">
+                        <div class="img">
+                            <img src="images/curry.png" alt="">
+                        </div>
+                        
+                        <div>
+                            <h5>PLAIN PAPADUMS</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit sed do oculis $1.95
+                                </p>
+                        </div>
+                    </div>
     
-            <!-- Dish Row 3 -->
-            <div class="dish-row3">
-                <div class="food-items">
-                    <div class="img">
-                        <img src="images/curry.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h5>PLAIN PAPADUMS</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit sed do oculis $1.95
+                    <div class="food-items">
+                        <div class="img">
+                            <img src="images/laddu.png" alt="">
+                        </div>
+                        
+                        <div>
+                            <h5>YELLOW CURRY</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit sed do oculis $15.95
                             </p>
-                    </div>
-                </div>
-
-                <div class="food-items">
-                    <div class="img">
-                        <img src="images/laddu.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h5>YELLOW CURRY</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit sed do oculis $15.95
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         </div>
         <!-- Dish row 1 -->
        
@@ -267,7 +279,7 @@
     <!-- Book Now -->
 
     <div class="book">
-        <h2>Book Here</h2>
+        <h2 data-aos="zoom-in" data-aos-duration="1000">Book Here</h2>
         <div class="info">
             <div>
                 <label for="people"> how many people?</label>
@@ -317,7 +329,7 @@
             </div>
         </div>
 
-        <a href="#"> Book Now</a>
+        <a class="hover-button2" href="#"> Book Now</a>
        
     </div>
 
@@ -331,28 +343,28 @@
     <!-- Discover new menus -->
 
     <div class="Menu">
-        <h2>Discover <span class="block">OUR NEW MENUS</span></h2>
+        <h2 data-aos="fade-down" data-aos-duration="1000">Discover <span class="block">OUR NEW MENUS</span></h2>
         <div class="three-column">
-            <div class="column">
+            <div class="column hover-div">
                 <img src="images/col-food-1.png" alt="">
                 <h5>Food/ 16 March ,2019</h5>
-                <h6>Lorem ipsum dolor sit.</h6>
+                <h5>Lorem ipsum dolor sit.</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, laudantium.</p>
                 <a href="#">Read More</a>
             </div>
 
-            <div class="column middle">
+            <div class="column middle hover-div">
                 <img src="images/col-food-2.png" alt="">
                 <h5>Spices/ 16 March ,2019</h5>
-                <h6>Lorem ipsum dolor sit.</h6>
+                <h5>Lorem ipsum dolor sit.</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, laudantium.</p>
                 <a href="#">Read More</a>
             </div>
 
-            <div class="column">
+            <div class="column hover-div">
                 <img src="images/col-food-3.png" alt="">
                 <h5>Chicken Curry/ 16 March ,2019</h5>
-                <h6>Lorem ipsum dolor sit.</h6>
+                <h5>Lorem ipsum dolor sit.</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, laudantium.</p>
                 <a href="#">Read More</a>
             </div>
@@ -365,11 +377,11 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
         <h4>Linda Steward</h4>
         <ul class="icons">
-            <a href="#"><li><i class="fa-brands fa-facebook"></i> </li></a>
-            <a href="#"><li> <i class="fa-brands fa-instagram"></i></li></a>
-            <a href="#"><li> <i class="fa-brands fa-google-plus-g"></i> </li></a>
-            <a href="#"><li> <i class="fa-brands fa-twitter"></i> </li></a>
-            <a href="#"><li> <i class="fa-brands fa-pinterest"></i></li></a>
+            <a class="hover-button1" href="#"><li ><i class="fa-brands fa-facebook"></i> </li></a>
+            <a class="hover-button1" href="#"><li > <i class="fa-brands fa-instagram"></i></li></a>
+            <a class="hover-button1" href="#"><li > <i class="fa-brands fa-google-plus-g"></i> </li></a>
+            <a class="hover-button1" href="#"><li > <i class="fa-brands fa-twitter"></i> </li></a>
+            <a class="hover-button1" href="#"><li > <i class="fa-brands fa-pinterest"></i></li></a>
         </ul>
     </div>
 
@@ -386,10 +398,10 @@
             <div class="about1">
                 <h4>About</h4>
                 <ul>
-                    <a href="#"><li>Team</li></a>
-                    <a href="#"><li>Join us</li></a>
-                    <a href="#"><li>Ethic </li></a>
-                    <a href="#"><li>Goals</li></a>
+                    <a href="#"><li class="hover-a1" >Team</li></a>
+                    <a href="#"><li class="hover-a1">Join us</li></a>
+                    <a href="#"><li class="hover-a1">Ethic </li></a>
+                    <a href="#"><li class="hover-a1">Goals</li></a>
                     
                 </ul>
             </div>
@@ -397,20 +409,20 @@
             <div class="about1">
                 <h4>About</h4>
                 <ul>
-                   <a href="#"><li>Team</li></a>
-                   <a href="#"><li>Join us</li></a>
-                   <a href="#"><li>Ethic </li></a>
-                   <a href="#"><li>Goals</li></a>
+                   <a href="#"><li class="hover-a1">Team</li></a>
+                   <a href="#"><li class="hover-a1">Join us</li></a>
+                   <a href="#"><li class="hover-a1">Ethic </li></a>
+                   <a href="#"><li class="hover-a1">Goals</li></a>
                 </ul>
             </div>
     
             <div class="about1">
                 <h4>About</h4>
                 <ul>
-                    <a href="#"><li>Team</li></a>
-                    <a href="#"><li>Join us</li></a>
-                    <a href="#"><li>Ethic </li></a>
-                    <a href="#"><li>Goals</li></a>
+                    <a href="#"><li class="hover-a1">Team</li></a>
+                    <a href="#"><li class="hover-a1">Join us</li></a>
+                    <a href="#"><li class="hover-a1">Ethic </li></a>
+                    <a href="#"><li class="hover-a1">Goals</li></a>
                 </ul>
             </div>
         </div>
@@ -422,6 +434,11 @@
 
 </div>
 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+
+
 <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
@@ -432,5 +449,10 @@
       }
     }
     </script>
+
+
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
